@@ -41,13 +41,11 @@ function CovertEvent() {
   } else {
     if (falgConvert) {
       // F TO C
-      userValue = null;
       userValue = convertInput.value;
       convert = (userValue - 32) * (5 / 9);
       resultBox.innerHTML = userValue + " °F to " + convert + " °C";
     } else {
       // C To F
-      userValue = null;
       userValue = convertInput.value;
       convert = userValue * (9 / 5) + 32;
       resultBox.innerHTML = userValue + " °C to " + convert + " °F";
