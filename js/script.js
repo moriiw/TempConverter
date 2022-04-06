@@ -12,13 +12,13 @@ let userValue, convert = null;
 function swap() {
   if (falgConvert) {
     convertInput.setAttribute("placeholder", "°C");
-    document.title = "Conver °C To °F";
+    $.title = "Conver °C To °F";
     cantigerd.innerHTML = "°C";
     farenhait.innerHTML = "°F";
     falgConvert = false;
   } else {
     convertInput.setAttribute("placeholder", "°F");
-    document.title = "Conver °F To °C";
+    $.title = "Conver °F To °C";
     cantigerd.innerHTML = "°F";
     farenhait.innerHTML = "°C";
     falgConvert = true;
